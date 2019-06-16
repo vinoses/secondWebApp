@@ -1,0 +1,151 @@
+
+/*order organized: Specificity: Defined Explicitly - 1+, low+*/
+
+/*div organized layout with grid container  */
+html, body, .grid-container { height: 100%; margin: 0; }
+
+.grid-container *{
+  position: relative;
+}
+
+.grid-container *:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.grid-container {
+  display: grid;
+  -webkit-justify-content: center;
+  grid-template-columns: 200px 500px 300px auto;
+  grid-template-rows: 300px 500px auto 300px;
+  grid-template-areas: "logo header header aside" "sidebar body body aside" "footer footer footer footer";
+}
+
+.logoDiv {
+  grid-area: logo;
+  right: 350px;
+  border: 0;
+  background-image: url(src/main/resources/images/splash.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.headerDiv {
+  grid-area: header;
+  background-image: url(src/main/resources/images/logo3.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.footerDiv { grid-area: footer; }
+
+.sidebarDiv {
+  grid-area: sidebar;
+  right: 200px;
+}
+
+.articleDiv {
+  grid-area: body;
+  right: 60px;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.asideDiv {
+  grid-area: aside;
+  border: none;
+}
+
+/*START: Sidebar Section */
+.buttonInfos {
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.buttons {
+  padding: 2px;
+}
+
+.menuButtons {
+  display: block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.menuButtons:hover {
+  background-color: lightblue;
+  font-size: 18px;
+  letter-spacing: 3px;
+  word-spacing: 4px;
+}
+
+.h1 {
+  font-size: 16px;
+  font-variant: small-caps;
+  padding: 20px;
+}
+
+.h2 {
+  padding: 10px;
+  font-size: 13px;
+  color: darkgreen;
+  font-variant: traditional;
+}
+
+.h3  {
+  display: flex;
+  top: 40px;
+  width: 450px;
+  background-image: inherit;
+}
+
+.links {
+  color: darkslateblue;
+}
+
+.links:hover {
+  color: blue;
+}
+
+.lightblue{
+  border-radius: 20px 20px 20px 20px;
+  padding: 2px;
+  background: deepskyblue;
+  font-weight: bold;
+  color: black;
+}
+
+.td {
+  text-align: center;
+  background: darkslateblue;
+  padding: 4px 3px;
+  font-size: 15px;
+  border-bottom: 2px solid black;
+  border-top:1px solid gold;
+}
+
+.headTd {
+  border-radius: 20px 20px 20px 20px;
+}
+
+.tr:first-child {
+  border-radius: 0 40px 0 40px;
+  color: white;
+}
+
+.th:nth-child(odd) {
+  border-radius: 40px 60px 60px 40px;
+  background: mediumspringgreen;
+}
+
+.th:nth-child(even) {
+  border-radius: 60px 40px 40px 60px;
+  background: springgreen;
+}
+
+
+

@@ -1,0 +1,167 @@
+{
+  "jqueryfunctions": [{
+      "function": "find()",
+      "description": "Selects elements based on the provided selector string"
+    },
+    {
+      "function": "hide()",
+      "description": "Hides an element if it was visible"
+    },
+    {
+      "function": "show()",
+      "description": "Shows an element if it was hidden"
+    },
+    {
+      "function": "html()",
+      "description": "gets or sets an inner HTML of an element"
+    },
+    {
+      "function": "append()",
+      "description": "injects an element inot the DOM after the selected element"
+    },
+    {
+      "function": "prepend()",
+      "description": "injects an element into the DOM before the selected elmeent"
+    },
+    {
+      "function": "on()",
+      "description": "attaches an event listener to an element"
+    },
+    {
+      "function": "off()",
+      "description": "detaches an event listenr from an element"
+    },
+    {
+      "function": "css()",
+      "description": "gets or sets the style attribute value of an element"
+    },
+    {
+      "function": "attr()",
+      "description": "gets or sets any attribute of an element"
+    },
+    {
+      "function": "val()",
+      "description": "gets or sets the value attribue of an element"
+    },
+    {
+      "function": "text()",
+      "description": "gets the combined text of an element and its children"
+    },
+    {
+      "function": "each()",
+      "description": "iterates over a set of matched elements"
+    }
+  ],
+  "javscriptfunctions": [{
+      "function": "spread ({...})",
+      "description": "expands an array into its elements or objects"
+    },
+    {
+      "function": "for of, iterator",
+      "description": "loops/iterates through the collection, replaces for-loop"
+    },
+    {
+      "function": "includes()",
+      "description": "boolean check if a specific string exists in a collection"
+    },
+    {
+      "function": "some()",
+      "description": "boolean check if some elements exists in an array, for functions not strings"
+    },
+    {
+      "function": "every()",
+      "description": "boolean check through the array, some() with conditional "
+    },
+    {
+      "function": "filter()",
+      "description": "creates a new array with all elements that pass the test"
+    },
+    {
+      "function": "map()",
+      "description": "like filter() returns a new array, except can be modified"
+    },
+    {
+      "function": "reduce()",
+      "description": "transform an array into something else"
+    },
+    {
+      "function": "arrays",
+      "description": "concat(),indexOf(),join(),lastIndexOf(),pop(),push(),toString(),splice())"
+    },
+    {
+      "function": "operators",
+      "description": "+,-,*,/,...,%,++,--,==,=== (value & type),!=,!==,>,<,>=,<=,? (ternary)"
+    },
+    {
+      "function": "logic",
+      "description": "&&,||,!,BITWISE: &,|,~,^,<<,>>,>>>"
+    },
+    {
+      "function": "outputting",
+      "description": "alert(),confirm(),console.log(),document.write(),prompt()"
+    },
+    {
+      "function": "global",
+      "description": "decodeURI(),eval(),isFinite(),isNaN(),Number(),parseFloat(),parseInt()"
+    },
+    {
+      "function": "variables",
+      "description": "var (global), const (final), let (local)"
+    },
+    {
+      "function": "data types",
+      "description": "Numbers, Variables, Text, Operations, Boolean, Objects"
+    }
+  ],
+    "cssfunctions": [{
+      "function": "counters",
+      "description": "CSS counters can replace JavaScript in some situations",
+      "link" : "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Using_CSS_counters"
+    },
+    {
+      "function": "smart quotes",
+      "description": "quotes property allows to specify which types of quotes are used",
+      "link" : "https://www.w3schools.com/cssref/pr_gen_quotes.asp"
+    },
+    {
+      "function": "hover effects",
+      "description": "event based effects from curser position",
+      "link" : "https://www.w3schools.com/cssref/sel_hover.asp"
+    },
+    {
+      "function": "icons",
+      "description": "can display a file icons if relavent",
+      "link" : "https://www.w3schools.com/css/css_icons.asp"
+    },
+    {
+      "function": "arrow",
+      "description": "can insert arrows, like for links whether local or not",
+      "link" : "https://www.w3schools.com/howto/howto_css_arrows.asp"
+    },
+    {
+      "function": "circular menu",
+      "description": "https://codepen.io/SaraSoueidan/pen/wpHBt",
+      "link" : "https://codepen.io/SaraSoueidan/pen/wpHBt"
+    },
+    {
+      "function": "gooey menu",
+      "description": "modern CSS3 and SVG",
+      "link" : "https://codepen.io/lbebber/pen/LELBEo"
+    },
+    {
+      "function": "modals",
+      "description": "boxing, responsive and compatible back to Internet Explorer 8",
+      "link" : "https://drublic.github.io/css-modal/"
+    },
+    {
+      "function": "parallax",
+      "description": "scrolling effect. It looks great, but is a bit sluggish sometimes",
+      "link" : "https://codepen.io/keithclark/pen/JycFw"
+    },
+    {
+      "function": "3d model",
+      "description": "an interactive css 3D model of the solar system",
+      "link" : "https://codepen.io/juliangarnier/pen/idhuG"
+    }
+  ]
+}
